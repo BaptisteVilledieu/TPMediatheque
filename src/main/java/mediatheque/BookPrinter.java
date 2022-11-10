@@ -11,12 +11,10 @@ package mediatheque;
  */
 public class BookPrinter implements ItemVisitor{
     @Override
-    public String visit(CD i){
-        return null;
+    public void visit(CD i){
     }
     
     @Override
-    public String visit(Book i){
-        return null;
+    public void visit(Book i){
     }
 }

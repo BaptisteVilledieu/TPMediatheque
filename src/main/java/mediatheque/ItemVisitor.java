@@ -10,6 +10,6 @@ package mediatheque;
  * @author bapti
  */
 public interface ItemVisitor {
-    public String visit(Book i);
-    public String visit(CD i);
+    public void visit(Book i);
+    public void visit(CD i);
 }
