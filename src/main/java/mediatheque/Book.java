@@ -25,6 +25,6 @@ public class Book extends Item {
 	
 	@Override
         public void accept(ItemVisitor v){
-            
+            v.visit(this);
         }
 }

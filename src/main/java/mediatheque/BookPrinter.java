@@ -16,5 +16,6 @@ public class BookPrinter implements ItemVisitor{
     
     @Override
     public void visit(Book i){
+        System.out.println(i.toString());
     }
 }
